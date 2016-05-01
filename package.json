@@ -1,0 +1,29 @@
+{
+  "name": "ooorayray.com",
+  "version": "0.0.1",
+  "description": "ooorayray.com site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ooorayray/ooorayray.com.git"
+  },
+  "author": "Raymond Lo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ooorayray/ooorayray.com/issues"
+  },
+  "homepage": "https://github.com/ooorayray/ooorayray.com",
+  "dependencies": {
+    "express": "^4.13.4",
+    "normalize.css": "^4.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sourcemaps": "^2.0.0-alpha"
+  }
+}

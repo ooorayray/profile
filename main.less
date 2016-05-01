@@ -1,0 +1,136 @@
+@import (inline) 'normalize.css/normalize.css';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic);
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+}
+
+body {
+	background: #fff;
+	padding: 0 1rem 1rem;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+a {
+	color: #FF9021;
+	text-decoration: none;
+	transition: color 0.4s ease-in-out;
+	&:hover {
+		color: #FF7F00;
+	}
+}
+a:visted {
+	color: #FF9021;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 80rem;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.container {
+	margin-bottom: 1rem;
+	padding: 2rem;
+}
+
+.profile {
+	padding: 2rem;
+}
+
+.profile h1 {
+	margin-bottom: 0.5rem;
+}
+
+.profile h2 {
+	margin: 0.5rem 0;
+	font-size: 1.6rem;
+}
+
+.profile p {
+	font-size: 1.4rem;
+}
+
+.container__title {
+	position: relative;
+	margin: 0 -1rem;
+	padding-left: 1rem;
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #FFD6AD;
+
+	&::before {
+		position: absolute;
+		content: '';
+		display: block;
+		bottom: -1px;
+		right: -1rem;
+		width: 1.7em;
+		height: 1.7em;
+		background: #FFD6AD linear-gradient(to bottom, #FFE1C3, #FFD6AD);
+
+		@media screen and (min-width: 55rem) {
+			left: -1.7em;
+			right: auto;
+		}
+	}
+
+	.fa {
+		position: absolute;
+		width: 1.7em;
+		bottom: 0;
+		right: -1rem;
+		line-height: 1.7em;
+		color: #FFF;
+		text-align: center;
+
+		@media screen and (min-width: 55rem) {
+			left: -1.7em;
+			right: auto;
+		}
+	}
+}
+
+.job__title {
+	margin-top: 4rem;
+	margin-bottom: 0.5rem;
+}
+
+.job__description {
+	padding-left: 2rem;
+	@media screen and (min-width: 30rem) {
+		margin-left: 4rem;
+		padding-left: 4rem;
+	}
+}
+
+.job__company {
+	display: block;
+	font-size: 1.6rem;
+	font-style: italic;
+}
+
+.job__date {
+	display: block;
+	font-size: 1.4rem;
+}
+
+.skills {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.skill {
+	display: inline-block;
+	margin: 0 1rem;
+}
+
+.edu-location {
+	font-size: 1.4rem;
+	font-style: italic;
+}
