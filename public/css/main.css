@@ -479,7 +479,7 @@ a:visted {
   content: '';
   display: block;
   bottom: -1px;
-  right: -1rem;
+  right: 0;
   width: 1.7em;
   height: 1.7em;
   background: #FFD6AD linear-gradient(to bottom, #FFE1C3, #FFD6AD);
@@ -494,7 +494,7 @@ a:visted {
   position: absolute;
   width: 1.7em;
   bottom: 0;
-  right: -1rem;
+  right: 0;
   line-height: 1.7em;
   color: #FFF;
   text-align: center;
