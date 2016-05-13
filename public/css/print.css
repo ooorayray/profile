@@ -1,0 +1,40 @@
+a {
+  color: #333;
+}
+.wrapper {
+  font-size: 1.2rem;
+}
+.profile {
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+.profile h1 {
+  margin-top: 0;
+}
+.container {
+  margin: 0 0 2rem;
+}
+.container__title {
+  font-size: 1.2em;
+}
+.container__title::before,
+.container__title .fa {
+  display: none;
+}
+.job__title {
+  margin-top: 2rem;
+  font-size: 1em;
+}
+.job__company {
+  display: inline;
+  font-size: 1em;
+}
+.job__company::before {
+  content: '- ';
+}
+.job__date {
+  display: inline;
+  float: right;
+  width: 12rem;
+  font-size: 1em;
+}

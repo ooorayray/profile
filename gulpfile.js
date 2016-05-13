@@ -5,7 +5,7 @@ const less = require('gulp-less');
 const livereload = require('gulp-livereload');
 
 gulp.task('less', () => {
-	return gulp.src('main.less')
+	return gulp.src(['main.less', 'print.less'])
 		.pipe(less({
 			paths: ['node_modules/']
 		}))
