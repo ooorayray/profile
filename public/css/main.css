@@ -542,6 +542,9 @@ a:visted {
   font-size: 0.855em;
   font-style: italic;
 }
+.job__company-note {
+  font-size: 0.875em;
+}
 .job__date {
   display: block;
   font-size: 0.748em;
