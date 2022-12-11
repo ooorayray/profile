@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ooorayray/ooorayray.com",
   "dependencies": {
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "normalize.css": "^4.1.1"
   },
   "devDependencies": {
